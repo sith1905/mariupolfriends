@@ -45,7 +45,7 @@
         "file": "@PROJECT_PATH@/fonts/3A8F61_0_0/font.ttf"
       }
     ],
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "4.10.8",
     "favicon": "",
     "noImageResize": "",
@@ -621,7 +621,7 @@
         {
           "_params": {
             "token": "19071511855.727bfe1.85c5836c1fea4268a3fa2825760a23fe",
-            "showTitle": false,
+            "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": 4,
             "rows": "1",
@@ -640,7 +640,7 @@
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "Instagram Feed",
+          "title": "Our Activities &amp; Musicians",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-warning\" href=\"#\" data-max-id=\"2155293388579241735_19071511855\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
@@ -649,7 +649,12 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-4"
+          "_anchor": "instagram-feed-block-4",
+          "_styles": {
+            ".inst__title": {
+              "color": "#8980a0"
+            }
+          }
         },
         {
           "alias": false,
