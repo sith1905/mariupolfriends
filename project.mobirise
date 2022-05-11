@@ -5,7 +5,7 @@
       "name": "mobirise5",
       "title": "Mobirise 5",
       "styling": {
-        "primaryColor": "#6592e6",
+        "primaryColor": "#5146d3",
         "secondaryColor": "#5146d3",
         "successColor": "#fef42f",
         "infoColor": "#47b5ed",
@@ -61,10 +61,10 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
     "uniqCompNum": 15,
     "versionPublish": "5.6.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
