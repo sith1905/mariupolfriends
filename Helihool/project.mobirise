@@ -61,8 +61,8 @@
       }
     ],
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/helihool-ua2x-277x120-118x112.png",
-    "mbrsiteDomain": "lcs2wkzxk1",
+    "favicon": false,
+    "mbrsiteDomain": "ceb5pvw5ie",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -83,7 +83,8 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/helihool-ua2x-277x120-118x112.png"
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/hh%20logo%202-1101x578.png"
       },
       "components": [
         {
