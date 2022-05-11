@@ -917,75 +917,119 @@ a {
 .cid-t5vKgDR9bg .card-title {
   color: #000000;
 }
-.cid-t5wLfuwmcb {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.cid-t5xNyV0nEt {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background-image: url("../../../assets/images/bg2-1900x1296.png");
 }
-.cid-t5wLfuwmcb .row-links {
+.cid-t5xNyV0nEt .mbr-overlay {
+  background: #fafafa;
+  opacity: 0.1;
+}
+.cid-t5xNyV0nEt img,
+.cid-t5xNyV0nEt .item-img {
   width: 100%;
-  justify-content: center;
 }
-.cid-t5wLfuwmcb .social-row {
-  width: 100%;
-  justify-content: center;
+.cid-t5xNyV0nEt .item:focus,
+.cid-t5xNyV0nEt span:focus {
+  outline: none;
 }
-.cid-t5wLfuwmcb .media-container-row {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.cid-t5xNyV0nEt .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
-.cid-t5wLfuwmcb .media-container-row .foot-menu {
-  list-style: none;
+.cid-t5xNyV0nEt .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
+  flex-flow: column nowrap;
 }
-.cid-t5wLfuwmcb .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
-}
-.cid-t5wLfuwmcb .media-container-row .foot-menu li p {
-  margin: 0;
-}
-.cid-t5wLfuwmcb .media-container-row .social-list {
-  width: auto;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-.cid-t5wLfuwmcb .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-.cid-t5wLfuwmcb .media-container-row .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-t5wLfuwmcb .media-container-row .social-list a {
-  margin: 0;
-  opacity: .5;
-  transition: .2s linear;
-}
-.cid-t5wLfuwmcb .media-container-row .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-t5wLfuwmcb .media-container-row .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
+@media (min-width: 992px) {
+  .cid-t5xNyV0nEt .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-t5xNyV0nEt .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
   }
 }
-.cid-t5wLfuwmcb .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
+@media (max-width: 991px) {
+  .cid-t5xNyV0nEt .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-t5xNyV0nEt .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
+  }
 }
-.cid-t5wLfuwmcb .media-container-row .row-copirayt p {
-  width: 100%;
+.cid-t5xNyV0nEt .mbr-section-btn {
+  margin-top: auto !important;
 }
-.cid-t5wLfuwmcb .media-container-row .mbr-text {
+.cid-t5xNyV0nEt .mbr-section-title {
+  color: #232323;
+}
+.cid-t5xNyV0nEt .mbr-text,
+.cid-t5xNyV0nEt .mbr-section-btn {
+  text-align: left;
+}
+.cid-t5xNyV0nEt .item-title {
+  text-align: left;
+}
+.cid-t5xNyV0nEt .item-subtitle {
+  text-align: center;
+}
+.cid-t5xNyVJhtz {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #f0f4c7;
+}
+.cid-t5xNyW0Efr {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #f0f4c7;
+}
+.cid-t5xNyXaWRs {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url("../../../assets/images/bg3-1900x1296.png");
+}
+.cid-t5xNyXaWRs .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t5xNyXaWRs .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t5xNyXaWRs .image-wrapper {
+  display: flex;
+  align-items: center;
+}
+.cid-t5xNyXaWRs .card-wrapper {
+  margin-bottom: 2rem;
+  display: flex;
+  border-radius: 4px;
+  background: #fafafa;
+}
+@media (max-width: 991px) {
+  .cid-t5xNyXaWRs .card-wrapper {
+    padding: 1rem 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t5xNyXaWRs .card-wrapper {
+    padding: 2rem 4rem;
+  }
+}
+.cid-t5xNyXaWRs .mbr-iconfont {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+  color: #005eb8;
+}
+.cid-t5xNyXaWRs .card-title {
   color: #000000;
 }
