@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "helihool-ee.html",
+    "currentPage": "index-ru.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -570,7 +570,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1&amp;db=helhool\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 10px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -1549,7 +1549,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1&amp;db=helihool\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 10px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -2529,7 +2529,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?campaign_title=Helihool%20%E2%80%93%20%D0%9Cusic%20for%20those%20who%20need%20it%20most&amp;detail=Helihool%20Annetus%20%2F%20Donation%20for%20Helihool%20project&amp;iban=EE507700771007877895&amp;payee=Mittetulundus%C3%BChing%20Helihool&amp;pphb=W6M5LX3T47K8A&amp;tax=1&amp;db=helihool\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 10px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
