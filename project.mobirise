@@ -77,7 +77,7 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-transp-new-128x128.png",
-    "mbrsiteDomain": "qztmxelyj5",
+    "mbrsiteDomain": "v7dgjmgqft",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -95,7 +95,7 @@
         "main": true,
         "title": "Друзья Мариуполя",
         "meta_descr": "Благотворительная организация волонтеров, которые помогают украинским беженцам, прибывшим в Эстонию.",
-        "header_custom": "<meta property=\"og:url\" content=\"https://MariupoliSobrad.ee\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:title\" content=\"Mariupoli Sõbrad\">\n  <meta property=\"og:description\" content=\"Благотворительная организация волонтеров, которые помогают украинским беженцам, прибывшим в Эстонию.\">\n  <meta property=\"fb:app_id\" content=\"none\">\n\n<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"a209af00-c3bf-4632-af46-0b08ea2880a1\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>",
+        "header_custom": "<meta property=\"og:url\" content=\"https://MariupoliSobrad.ee\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:title\" content=\"Mariupoli Sõbrad\">\n  <meta property=\"og:description\" content=\"Благотворительная организация волонтеров, которые помогают украинским беженцам, прибывшим в Эстонию.\">\n  <meta property=\"fb:app_id\" content=\"none\">",
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "https://mariupolisobrad.ee/assets/images/index-meta.png"
@@ -870,7 +870,7 @@
       "settings": {
         "title": "Mariupol's Friends",
         "meta_descr": "Mariupol's Friends is a charity volunteer organisation, helping Ukrainian war refugees who came to Estonia.",
-        "header_custom": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"a209af00-c3bf-4632-af46-0b08ea2880a1\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/og-v2-mf-1200x630.png",
@@ -1647,7 +1647,7 @@
       "settings": {
         "title": "Mariupoli Sõbrad",
         "meta_descr": "Mariupoli Sõbrad on heategevuslik vabatahtlike organisatsioon, mis aitab Eestisse saabunud Ukraina pagulasi.",
-        "header_custom": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"a209af00-c3bf-4632-af46-0b08ea2880a1\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/og-v2-mf-1200x630.png",
@@ -2424,7 +2424,7 @@
       "settings": {
         "title": "Друзі Маріуполя",
         "meta_descr": "Друзі Маріуполя – благодійна організація волонтерів, які допомагають українським біженцям, що прибули до Естонії.",
-        "header_custom": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"a209af00-c3bf-4632-af46-0b08ea2880a1\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/og-v2-mf-1200x630.png",

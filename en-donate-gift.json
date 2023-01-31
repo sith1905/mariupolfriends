@@ -1,0 +1,601 @@
+{
+    "elements": [
+        {
+            "id": "checkbox-1",
+            "type": "checkbox",
+            "label": "",
+            "label_on_cart": "I would like to have a tax return",
+            "option_values": [
+                {
+                    "id": 0,
+                    "value": "I would like to have a tax return",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                }
+            ],
+            "required": false,
+            "hidden_label": false,
+            "label_has_value": false,
+            "min": "",
+            "max": "",
+            "default_value": "",
+            "helptext": "",
+            "helptext_position": "below",
+            "class_name": "",
+            "columnWidth": 100
+        },
+        {
+            "id": "number-1",
+            "type": "number",
+            "label": "Estonian Personal ID Code",
+            "label_on_cart": "ID Code",
+            "addon_product": {
+                "product_id": null,
+                "product_handle": null,
+                "variant_id": null,
+                "variant_title": null,
+                "price": null
+            },
+            "required": true,
+            "hidden_label": false,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "helptext": "Enter your Estonian Personal ID Code, if you want to receive a tax return for your donation",
+            "helptext_position": "below",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": true,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "checkbox-1",
+                        "where": "EQUALS",
+                        "value": "I would like to have a tax return"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "paragraph-1",
+            "type": "paragraph",
+            "text": "<p>Choose the amount of donation (excess donation amount will be used for compensating bank fees, delivery payments, and for gifts for other children) or choose to prepare the gift yourself (we will provide you a code for postbox locker to send the gift).</p>",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": false,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "null",
+                        "where": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "radio-1",
+            "type": "radio",
+            "label": "Donation amount",
+            "label_on_cart": "Donation amount",
+            "option_values": [
+                {
+                    "id": 2,
+                    "value": "€25",
+                    "product_id": 8057771688201,
+                    "product_handle": "option-set-177356-radio-1",
+                    "variant_id": 43841336705289,
+                    "variant_title": "Donation amount - €25",
+                    "price": null
+                },
+                {
+                    "id": 3,
+                    "value": "€50",
+                    "product_id": 8057771688201,
+                    "product_handle": "option-set-177356-radio-1",
+                    "variant_id": 43841336738057,
+                    "variant_title": "Donation amount - €50",
+                    "price": null
+                },
+                {
+                    "id": 4,
+                    "value": "€100",
+                    "product_id": 8057771688201,
+                    "product_handle": "option-set-177356-radio-1",
+                    "variant_id": 43841336770825,
+                    "variant_title": "Donation amount - €100",
+                    "price": null
+                },
+                {
+                    "id": 6,
+                    "value": "€250",
+                    "product_id": 8057771688201,
+                    "product_handle": "option-set-177356-radio-1",
+                    "variant_id": 43841377927433,
+                    "variant_title": "Donation amount - €250",
+                    "price": null
+                },
+                {
+                    "id": 5,
+                    "value": "Prepare the gift yourself",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                }
+            ],
+            "required": true,
+            "hidden_label": false,
+            "label_has_value": false,
+            "default_value": "€25",
+            "helptext": "",
+            "helptext_position": "below",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": false,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "null",
+                        "where": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "paragraph-2",
+            "type": "paragraph",
+            "text": "<p><span style=\"color: rgb(230, 0, 0);\">Please note that preparing the gift yourself is available only for those who live in Estonia, Latvia, Lithuania or Finland</span></p>",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": true,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "radio-1",
+                        "where": "EQUALS",
+                        "value": "Prepare the gift yourself"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "select-1",
+            "type": "select",
+            "label": "Preferrable way of contact",
+            "label_on_cart": "Preferrable way of contact",
+            "option_values": [
+                {
+                    "id": 0,
+                    "value": "Facebook Messenger",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                },
+                {
+                    "id": 1,
+                    "value": "Telegram",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                },
+                {
+                    "id": 2,
+                    "value": "WhatsApp",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                },
+                {
+                    "id": 3,
+                    "value": "Viber",
+                    "product_id": null,
+                    "product_handle": null,
+                    "variant_id": null,
+                    "variant_title": null,
+                    "price": null
+                }
+            ],
+            "required": true,
+            "hidden_label": false,
+            "label_has_value": false,
+            "default_value": "",
+            "placeholder": "",
+            "helptext": "",
+            "helptext_position": "below",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": false,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "null",
+                        "where": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "text-1",
+            "type": "text",
+            "label": "Contact details:",
+            "label_on_cart": "Contact details",
+            "addon_product": {
+                "product_id": null,
+                "product_handle": null,
+                "variant_id": null,
+                "variant_title": null,
+                "price": null
+            },
+            "required": true,
+            "hidden_label": false,
+            "max": "",
+            "show_counter": false,
+            "placeholder": "",
+            "helptext": "Put a link for your Facebook or your phone number, which we can use to contact you through Telegram/WhatsApp/Viber.",
+            "helptext_position": "below",
+            "class_name": "",
+            "columnWidth": 100,
+            "conditionalField": false,
+            "clo": {
+                "display": "show",
+                "match": "all",
+                "whens": [
+                    {
+                        "select": "null",
+                        "where": "EQUALS",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "add-elements": null,
+    "products": {
+        "rule": {
+            "manual": {
+                "enable": false,
+                "ids": [
+                    8057680527625
+                ]
+            },
+            "automate": {
+                "enable": true,
+                "operator": "and",
+                "conditions": [
+                    {
+                        "select": "COLLECTION",
+                        "where": "EQUALS",
+                        "value": 482057126153
+                    },
+                    {
+                        "select": "TITLE",
+                        "where": "NOT_EQUALS",
+                        "value": "{
+    "elements": [
+                            {
+                                "id": "checkbox-1",
+                                "type": "checkbox",
+                                "label": "",
+                                "label_on_cart": "I would like to have a tax return",
+                                "option_values": [
+                                    {
+                                        "id": 0,
+                                        "value": "I would like to have a tax return",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    }
+                                ],
+                                "required": false,
+                                "hidden_label": false,
+                                "label_has_value": false,
+                                "min": "",
+                                "max": "",
+                                "default_value": "",
+                                "helptext": "",
+                                "helptext_position": "below",
+                                "class_name": "",
+                                "columnWidth": 100
+                            },
+                            {
+                                "id": "number-1",
+                                "type": "number",
+                                "label": "Estonian Personal ID Code",
+                                "label_on_cart": "ID Code",
+                                "addon_product": {
+                                    "product_id": null,
+                                    "product_handle": null,
+                                    "variant_id": null,
+                                    "variant_title": null,
+                                    "price": null
+                                },
+                                "required": true,
+                                "hidden_label": false,
+                                "min": "",
+                                "max": "",
+                                "placeholder": "",
+                                "helptext": "Enter your Estonian Personal ID Code, if you want to receive a tax return for your donation",
+                                "helptext_position": "below",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": true,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "checkbox-1",
+                                            "where": "EQUALS",
+                                            "value": "I would like to have a tax return"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "paragraph-1",
+                                "type": "paragraph",
+                                "text": "<p>Choose the amount of donation (excess donation amount will be used for compensating bank fees, delivery payments, and for gifts for other children) or choose to prepare the gift yourself (we will provide you a code for postbox locker to send the gift).</p>",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": false,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "null",
+                                            "where": "EQUALS",
+                                            "value": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "radio-1",
+                                "type": "radio",
+                                "label": "Donation amount",
+                                "label_on_cart": "Donation amount",
+                                "option_values": [
+                                    {
+                                        "id": 2,
+                                        "value": "€25",
+                                        "product_id": 8057771688201,
+                                        "product_handle": "option-set-177356-radio-1",
+                                        "variant_id": 43841336705289,
+                                        "variant_title": "Donation amount - €25",
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 3,
+                                        "value": "€50",
+                                        "product_id": 8057771688201,
+                                        "product_handle": "option-set-177356-radio-1",
+                                        "variant_id": 43841336738057,
+                                        "variant_title": "Donation amount - €50",
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 4,
+                                        "value": "€100",
+                                        "product_id": 8057771688201,
+                                        "product_handle": "option-set-177356-radio-1",
+                                        "variant_id": 43841336770825,
+                                        "variant_title": "Donation amount - €100",
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 6,
+                                        "value": "€250",
+                                        "product_id": 8057771688201,
+                                        "product_handle": "option-set-177356-radio-1",
+                                        "variant_id": 43841377927433,
+                                        "variant_title": "Donation amount - €250",
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 5,
+                                        "value": "Prepare the gift yourself",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    }
+                                ],
+                                "required": true,
+                                "hidden_label": false,
+                                "label_has_value": false,
+                                "default_value": "€25",
+                                "helptext": "",
+                                "helptext_position": "below",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": false,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "null",
+                                            "where": "EQUALS",
+                                            "value": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "paragraph-2",
+                                "type": "paragraph",
+                                "text": "<p><span style=\"color: rgb(230, 0, 0);\">Please note that preparing the gift yourself is available only for those who live in Estonia, Latvia, Lithuania or Finland</span></p>",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": true,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "radio-1",
+                                            "where": "EQUALS",
+                                            "value": "Prepare the gift yourself"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "select-1",
+                                "type": "select",
+                                "label": "Preferrable way of contact",
+                                "label_on_cart": "Preferrable way of contact",
+                                "option_values": [
+                                    {
+                                        "id": 0,
+                                        "value": "Facebook Messenger",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 1,
+                                        "value": "Telegram",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 2,
+                                        "value": "WhatsApp",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    },
+                                    {
+                                        "id": 3,
+                                        "value": "Viber",
+                                        "product_id": null,
+                                        "product_handle": null,
+                                        "variant_id": null,
+                                        "variant_title": null,
+                                        "price": null
+                                    }
+                                ],
+                                "required": true,
+                                "hidden_label": false,
+                                "label_has_value": false,
+                                "default_value": "",
+                                "placeholder": "",
+                                "helptext": "",
+                                "helptext_position": "below",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": false,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "null",
+                                            "where": "EQUALS",
+                                            "value": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "text-1",
+                                "type": "text",
+                                "label": "Contact details:",
+                                "label_on_cart": "Contact details",
+                                "addon_product": {
+                                    "product_id": null,
+                                    "product_handle": null,
+                                    "variant_id": null,
+                                    "variant_title": null,
+                                    "price": null
+                                },
+                                "required": true,
+                                "hidden_label": false,
+                                "max": "",
+                                "show_counter": false,
+                                "placeholder": "",
+                                "helptext": "Put a link for your Facebook or your phone number, which we can use to contact you through Telegram/WhatsApp/Viber.",
+                                "helptext_position": "below",
+                                "class_name": "",
+                                "columnWidth": 100,
+                                "conditionalField": false,
+                                "clo": {
+                                    "display": "show",
+                                    "match": "all",
+                                    "whens": [
+                                        {
+                                            "select": "null",
+                                            "where": "EQUALS",
+                                            "value": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "add-elements": null,
+                        "products": {
+                            "rule": {
+                                "manual": {
+                                    "enable": false,
+                                    "ids": [
+                                        8057680527625
+                                    ]
+                                },
+                                "automate": {
+                                    "enable": true,
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "select": "COLLECTION",
+                                            "where": "EQUALS",
+                                            "value": 482057126153
+                                        },
+                                        {
+                                            "select": "VARIANT_PRICE",
+                                            "where": "EQUALS",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "all": {
+                                    "enable": false
+                                }
+                            }
+                        },
+                        "status": 0
+                    }
